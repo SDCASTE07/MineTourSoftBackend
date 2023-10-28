@@ -16,13 +16,14 @@ public class SignupController {
     @Autowired
     private AuthService authService;
 
+    
     @PostMapping("/sign-up")
     public ResponseEntity<?> signupUser(@RequestBody SignupDTO signupDTO) {
        UserDTO createdUser = authService.createUser(signupDTO);
        if (createdUser == null){
            return new ResponseEntity<>("User not created, come again later!", HttpStatus.BAD_REQUEST);
        }
-       
+
        return new ResponseEntity<>(createdUser, HttpStatus.CREATED);
     }
 
