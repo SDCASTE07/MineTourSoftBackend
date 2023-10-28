@@ -22,6 +22,7 @@ public class SignupController {
        if (createdUser == null){
            return new ResponseEntity<>("User not created, come again later!", HttpStatus.BAD_REQUEST);
        }
+       
        return new ResponseEntity<>(createdUser, HttpStatus.CREATED);
     }
 
