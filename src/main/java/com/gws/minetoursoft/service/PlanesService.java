@@ -15,9 +15,11 @@ public class PlanesService {
     private void setPlanesRepository(PlanesRepository planesRepository){
         this.planesRepository=planesRepository;
     }
+
     public List<Planes> listarPlanes(){
         return this.planesRepository.findAll();
     }
+
     public Planes guardarPlanes(Planes planes){
         return this.planesRepository.save(planes);
     }
