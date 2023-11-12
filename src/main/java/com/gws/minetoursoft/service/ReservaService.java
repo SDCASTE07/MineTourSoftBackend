@@ -22,7 +22,7 @@ public class ReservaService {
         return this.reservaRepository.save(reservas);
     }
 
-    
+
     public List<Reservas> listar (){
         return this.reservaRepository.findAll();
     }
