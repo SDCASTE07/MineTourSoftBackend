@@ -5,58 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66461f73-02b2-49d7-bc14-6e8a4410cec1" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/HELP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MineTourSoft-0.0.1-SNAPSHOT.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/MineTourSoft-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application-prod.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/MineTourSoftApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/conf/SimpleCorsFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/conf/WebSecurityConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/controller/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/controller/LIstarController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/controller/PlanesController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/controller/ReservasController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/controller/SignupController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/AuthenticationDTO$AuthenticationDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/AuthenticationDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/AuthenticationResponseDto$AuthenticationResponseDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/AuthenticationResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/ReservasDto$ReservasDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/ReservasDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/ResponseDto$ResponseDtoBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/ResponseDto.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/SignupDTO$SignupDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/SignupDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/UserDTO$UserDTOBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/filters/JwtRequestFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/Planes$PlanesBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/Planes.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/Reservas$ReservasBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/Reservas.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/modelo/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/repository/PlanesRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/repository/ReservaRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/service/PlanesService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/service/ReservaService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/service/auth/AuthService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/service/auth/AuthServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/service/jwt/UserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/gws/minetoursoft/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/2023-11-12T11-54-39_238-jvmRun1.dump" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.gws.minetoursoft.MineTourSoftApplicationTests.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/com.gws.minetoursoft.MineTourSoftApplicationTests.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/gws/minetoursoft/MineTourSoftApplicationTests.class" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/Procfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Profile.txt" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -158,7 +109,7 @@
       <workItem from="1698415709021" duration="26608000" />
       <workItem from="1699492362208" duration="9653000" />
       <workItem from="1699800326832" duration="6767000" />
-      <workItem from="1699807394475" duration="1226000" />
+      <workItem from="1699807394475" duration="1696000" />
     </task>
     <servers />
   </component>
