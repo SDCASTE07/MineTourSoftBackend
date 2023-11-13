@@ -1,5 +1,5 @@
 FROM openjdk:11
-FROM maven:3.2.5-jdk-11-slim
+FROM maven:3.2.5-jdk-8
 WORKDIR /app
 COPY . /app
 # RUN mvn clean package -DskipTests
