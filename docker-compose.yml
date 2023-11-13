@@ -1,20 +1,15 @@
 version: '3.5'
 
 services:
-  trunkall-backend:
+  minetoursoft-backend:
     build: .
+    container_name: bk-minetoursoft
     image: minetoursoft-backend
     restart: on-failure
     ports:
       - "8080:8080"
-      - "8443:8443"
-      - "587:587"
-      - "995:995"
     expose:
       - "8080"
-      - "8443"
-      - "587"
-      - "995"
     volumes:
       - app-minetoursoft:/app
     networks:
@@ -28,5 +23,4 @@ networks:
     driver: bridge
 
 volumes:
-  app-trunkall:
-  db-data:
+  app-minetoursoft:
