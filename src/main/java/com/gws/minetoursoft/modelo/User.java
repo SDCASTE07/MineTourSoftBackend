@@ -1,6 +1,4 @@
 package com.gws.minetoursoft.modelo;
-
-import com.sun.jdi.NativeMethodException;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

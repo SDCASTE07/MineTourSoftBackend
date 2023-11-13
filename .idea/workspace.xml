@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="66461f73-02b2-49d7-bc14-6e8a4410cec1" name="Changes" comment="" />
+    <list default="true" id="66461f73-02b2-49d7-bc14-6e8a4410cec1" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/User.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -125,7 +128,7 @@
       <workItem from="1699492362208" duration="9653000" />
       <workItem from="1699800326832" duration="6767000" />
       <workItem from="1699807394475" duration="2501000" />
-      <workItem from="1699849452030" duration="2577000" />
+      <workItem from="1699849452030" duration="3218000" />
     </task>
     <servers />
   </component>
