@@ -1,5 +1,7 @@
 package com.gws.minetoursoft.controller;
 
+import com.google.zxing.WriterException;
+import com.gws.minetoursoft.dto.ConfirmacionDto;
 import com.gws.minetoursoft.dto.ReservasDto;
 import com.gws.minetoursoft.dto.ResponseDto;
 import com.gws.minetoursoft.modelo.Reservas;
@@ -9,6 +11,8 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
+import javax.mail.MessagingException;
+import java.io.IOException;
 import java.util.List;
 
 @RestController
@@ -35,5 +39,11 @@ public class ReservasController {
         this.reservaService.save(reservas);
         return new ResponseEntity<>(new ResponseDto(true, "registro exitoso", reservas), HttpStatus.OK);
     }
+    @PostMapping("/confirmacion")
+    public  ResponseEntity<?> confimacion (@RequestBody ConfirmacionDto confirmacionDto) throws MessagingException, IOException, WriterException {
+        Reservas reservas = this.reservaService.obtenerByid(confirmacionDto.getId(),confirmacionDto.getEstado());
+        return new ResponseEntity<>(new ResponseDto(true, "correo enviado", reservas), HttpStatus.OK);
+    }
+
 
 }

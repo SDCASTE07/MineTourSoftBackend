@@ -1,5 +1,6 @@
 package com.gws.minetoursoft.modelo;
 
+import ch.qos.logback.core.pattern.color.BoldBlueCompositeConverter;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -45,4 +46,7 @@ public class Reservas {
 
     @Column(name = "fecha_resrva")
     private Date fechaReserva;
+
+    @Column(name = "confirmacion")
+    private Boolean confirmacion;
 }

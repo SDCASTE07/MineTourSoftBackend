@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
 @AllArgsConstructor
 @Builder
 @Component
-public class confirmacion {
+public class ConfirmacionDto {
     private Long id;
     private  Boolean estado;
 }

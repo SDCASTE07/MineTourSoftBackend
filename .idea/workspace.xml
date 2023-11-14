@@ -5,8 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="66461f73-02b2-49d7-bc14-6e8a4410cec1" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/conf/MailConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/conf/QRCodeGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/dto/ConfirmacionDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MineTourSoft.iml" beforeDir="false" afterPath="$PROJECT_DIR$/MineTourSoft.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/conf/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/conf/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/controller/ReservasController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/controller/ReservasController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/Reservas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/modelo/Reservas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/repository/ReservaRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/repository/ReservaRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/service/ReservaService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/service/ReservaService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +138,7 @@
       <workItem from="1699492362208" duration="9653000" />
       <workItem from="1699800326832" duration="6767000" />
       <workItem from="1699807394475" duration="2501000" />
-      <workItem from="1699849452030" duration="3218000" />
+      <workItem from="1699849452030" duration="15933000" />
     </task>
     <servers />
   </component>
@@ -147,14 +157,10 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/gws/minetoursoft/controller/ReservasController.java</url>
-          <line>25</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((ServletInvocableHandlerMethod)this).method" custom="org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

@@ -29,7 +29,7 @@ public class WebSecurityConfiguration {
                 .authorizeHttpRequests()
                 .antMatchers("/authenticate").permitAll()
                 .antMatchers("/sign-up").permitAll()
-                .antMatchers("/registro").permitAll()
+                .antMatchers("/registro/**").permitAll()
                 .antMatchers("/api/**").permitAll()
                 .and()
                 .authorizeHttpRequests().antMatchers("/api/**")
